@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gupta Transport Services</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Gupta Transport Services</h1>
+    <p>Reliable & Affordable Transport Solutions</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#booking">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome to Gupta Transport</h2>
+    <p>Your trusted partner for all logistics and transportation needs.</p>
+    <button onclick="scrollToBooking()">Book a Service</button>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We provide safe, reliable, and timely transport services across India. With years of experience, we ensure your goods reach the destination securely.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Local Transport</h3>
+        <p>Quick and efficient transport within the city.</p>
+      </div>
+      <div class="card">
+        <h3>Interstate Transport</h3>
+        <p>Reliable long-distance goods delivery across states.</p>
+      </div>
+      <div class="card">
+        <h3>Logistics Support</h3>
+        <p>Complete logistics solutions for businesses and startups.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Transport Service</h2>
+    <form id="bookingForm">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="pickup">Pickup Location</label>
+      <input type="text" id="pickup" name="pickup" required>
+
+      <label for="drop">Drop Location</label>
+      <input type="text" id="drop" name="drop" required>
+
+      <label for="message">Additional Details</label>
+      <textarea id="message" name="message" rows="4"></textarea>
+
+      <button type="submit">Submit Request</button>
+    </form>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@guptatransport.com | Phone: +91 98765 43210</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gupta Transport Services. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
